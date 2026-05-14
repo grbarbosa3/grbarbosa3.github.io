@@ -39,7 +39,7 @@ title: "Home"
   </p>
 
   <p>
-    Profissional de dados com mais de 5 anos de experiência, atualmente em transição para a Engenharia de Dados para entregar soluções escaláveis em tecnologia, aviação e diversos dominhos de       negócios, incluindo E-Commerce, Finanças, Education e Marketing.
+    Profissional de dados com mais de 5 anos de experiência, atualmente expandindo meus conhecimentos com Engenharia de Dados para entregar soluções para setores de tecnologia, aviação e outras     diversos contextos de negócios, incluindo E-Commerce, Finanças, Education e Marketing.
   </p>
 
   <p><strong>Principais habilidades:</strong> Python · SQL · Power BI · dbt · Airflow · Snowflake · BigQuery · Docker · GCP</p>
@@ -54,7 +54,7 @@ title: "Home"
       to transformations, analytics, dashboards, and business insights.
     </p>
     <p>
-      Data professional with 5+ years of experience, currently transitioning into Data Engineering to deliver scalable solutions across tech, aviation, and diverse business domains including E-        Commerce, Finance, Education and Marketing.
+      Data professional with 5+ years of experience, currently transitioning into Data Engineering to deliver solutions across tech, aviation, and diverse business domains including E-       Commerce, Finance, Education and Marketing.
     </p>
   </div>
 
