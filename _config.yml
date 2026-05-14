@@ -1,5 +1,5 @@
 title: "Guilherme R Barbosa - Data Analytics & Data Engineering"
-description: "Projects, Codes, Builds and Learning"
+description: "Dashboards, Codes, Pipelines and Learning"
 baseurl: ""
 url: ""
 markdown: kramdown
@@ -11,7 +11,5 @@ defaults:
       layout: default
 author: "Guilherme R Barbosa"
 github_username: "grbarbosa3"
-youtube_channel: "@dataslinger6379"
-medium_username: "dataslinger"
 exclude:
   - "README.md"
