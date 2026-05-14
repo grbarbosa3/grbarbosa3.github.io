@@ -26,8 +26,32 @@ title: "Home"
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
   }
-</style>
 
+  .section {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  box-sizing: border-box;
+}
+
+.about-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.about-text {
+  width: 100%;
+  max-width: 850px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
 <section id="about" class="section">
   <div class="about-container">
     <img src="{{ '/assets/images/me.png' | relative_url }}"
