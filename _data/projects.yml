@@ -1,8 +1,8 @@
-- title: "History of Rome Podcast LLM Search."
-  link: "https://github.com/MichaelShoemaker/history_of_rome_podcast_llm"
-  description: "Download and transcribe all epiodes of the History of Rome and load them to Ollama LLM"
-  stack: "Docker Compose · Ollama ·  qdrant"
-  image: "/assets/images/HistoryOfRomeDataFlowDiagram.gif"
+- title: "GA4 Analytics com BigQuery"
+  link: "https://github.com/grbarbosa3/GA4-ecommerce-analytics"
+  description: "Análise da base de E-Commerce do Google utilizando BigQuery"
+  stack: "SQL · BigQuery ·  Power Bi"
+  image: "/assets/images/ga4_analytics_.png"
   preview_gif: "/assets/images/HORDemo.gif"
   screenshot: "/assets/images/HistoryOfRomeDataFlowDiagram.gif"
 
