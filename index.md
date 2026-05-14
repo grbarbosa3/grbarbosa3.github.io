@@ -28,31 +28,32 @@ title: "Home"
   }
 
   .section {
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  box-sizing: border-box;
-}
-
-.about-container {
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.about-text {
-  width: 100%;
-  max-width: 850px;
-}
-
-@media (max-width: 768px) {
-  .section {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-sizing: border-box;
   }
-}
+
+  .about-container {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .about-text {
+    width: 100%;
+    max-width: 850px;
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+    }
+  }
 </style>
+
 <section id="about" class="section">
   <div class="about-container">
     <img src="{{ '/assets/images/me.png' | relative_url }}"
@@ -74,7 +75,7 @@ title: "Home"
       </p>
 
       <p>
-        Possuo mais de 5 anos de experiência, atualmente expandindo meus conhecimentos com Engenharia de Dados para entregar soluções para setores de tecnologia, aviação e outros                        diversos contextos de negócios, incluindo E-Commerce, Finanças, Education e Marketing.
+        Possuo mais de 5 anos de experiência, atualmente expandindo meus conhecimentos com Engenharia de Dados para entregar soluções para setores de tecnologia, aviação e outros diversos contextos de negócios, incluindo E-Commerce, Finanças, Education e Marketing.
       </p>
 
       <p><strong>Principais habilidades:</strong> Python · SQL · Power BI · dbt · Airflow · Snowflake · BigQuery · Docker · GCP</p>
@@ -92,7 +93,7 @@ title: "Home"
         </p>
 
         <p>
-          Data professional with 5+ years of experience, currently transitioning into Data Engineering to deliver solutions across tech, aviation, and diverse business domains including E-                Commerce, Finance, Education and Marketing.
+          Data professional with 5+ years of experience, currently transitioning into Data Engineering to deliver solutions across tech, aviation, and diverse business domains including E-Commerce, Finance, Education and Marketing.
         </p>
       </div>
 
@@ -109,7 +110,7 @@ title: "Home"
 <section id="projects" class="section">
   <div class="section-header">
     <h2>🚀 Projects</h2>
-    <a class="view-all" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener"> Ver todos repositórios (All repos) →</a>
+    <a class="view-all" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">Ver todos repositórios (All repos) →</a>
   </div>
 
   <div class="gallery">
@@ -140,7 +141,7 @@ title: "Home"
 
           <a class="btn" href="{{ item.link }}" target="_blank" rel="noopener">Open</a>
         </div>
-      </div> 
+      </div>
     </article>
     {% endfor %}
   </div>
