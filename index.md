@@ -52,6 +52,7 @@ title: "Home"
     padding-right: 1.25rem;
   }
 }
+</style>
 <section id="about" class="section">
   <div class="about-container">
     <img src="{{ '/assets/images/me.png' | relative_url }}"
@@ -139,7 +140,7 @@ title: "Home"
 
           <a class="btn" href="{{ item.link }}" target="_blank" rel="noopener">Open</a>
         </div>
-      </div>
+      </div> 
     </article>
     {% endfor %}
   </div>
