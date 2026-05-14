@@ -30,7 +30,7 @@ title: "Home"
 
 <section id="about" class="section">
   <div class="about-container">
-    <img src="{{ '/assets/images/me.jpeg' | relative_url }}"
+    <img src="{{ '/assets/images/me.png' | relative_url }}"
          alt="Guilherme Barbosa"
          class="profile-pic">
 
