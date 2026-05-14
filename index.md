@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Home"
 ---
 
@@ -45,7 +44,7 @@ title: "Home"
   <p><strong>Principais habilidades:</strong> Python · SQL · Power BI · dbt · Airflow · Snowflake · BigQuery · Docker · GCP</p>
 
   <div class="english-version">
-    <p><strong>English version</strong></p>
+    <p><strong> 🇺🇸 English version 🇺🇸 </strong></p>
     <p>
       Data Analyst | Data Engineering | Aerospace Engineering Student
     </p>
