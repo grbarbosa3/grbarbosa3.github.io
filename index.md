@@ -3,30 +3,6 @@ title: "Home"
 ---
 
 <style>
-  .location {
-    margin-top: -0.4rem;
-    margin-bottom: 1rem;
-    font-size: 0.95rem;
-    opacity: 0.75;
-  }
-
-  .english-version {
-    margin-top: 1.5rem;
-    font-size: 0.9rem;
-    opacity: 0.85;
-    line-height: 1.5;
-  }
-
-  .english-version p {
-    margin: 0.3rem 0;
-  }
-
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.5rem;
-  }
-
   .section {
     width: 100%;
     max-width: 1100px;
@@ -43,13 +19,68 @@ title: "Home"
 
   .about-text {
     width: 100%;
-    max-width: 850px;
+    max-width: 780px;
+  }
+
+  .location {
+    margin-top: -0.4rem;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    opacity: 0.75;
+    text-align: left;
+  }
+
+  .headline {
+    text-align: left;
+  }
+
+  .description {
+    text-align: justify;
+    text-justify: inter-word;
+    text-align-last: left;
+  }
+
+  .skills {
+    text-align: left;
+  }
+
+  .english-version {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    opacity: 0.85;
+    line-height: 1.5;
+  }
+
+  .english-version p {
+    margin: 0.3rem 0;
+  }
+
+  .english-version-title {
+    text-align: left;
+  }
+
+  .social-links {
+    text-align: left;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
   }
 
   @media (max-width: 768px) {
     .section {
       padding-left: 1.25rem;
       padding-right: 1.25rem;
+    }
+
+    .about-text {
+      max-width: 100%;
+    }
+
+    .description {
+      text-align: left;
     }
   }
 </style>
@@ -69,30 +100,32 @@ title: "Home"
         Analista de Dados | Engenharia de Dados | Engenharia Aeronáutica
       </p>
 
-      <p>
+      <p class="description">
         Construo soluções de dados, desde ingestão e orquestração até transformação,
         análise, dashboards e geração de insights para direcionamentos e acompanhamentos.
       </p>
 
-      <p>
+      <p class="description">
         Possuo mais de 5 anos de experiência, atualmente expandindo meus conhecimentos com Engenharia de Dados para entregar soluções para setores de tecnologia, aviação e outros diversos contextos de negócios, incluindo E-Commerce, Finanças, Education e Marketing.
       </p>
 
-      <p><strong>Principais habilidades:</strong> Python · SQL · Power BI · dbt · Airflow · Snowflake · BigQuery · Docker · GCP</p>
+      <p class="skills">
+        <strong>Principais habilidades:</strong> Python · SQL · Power BI · dbt · Airflow · Snowflake · BigQuery · Docker · GCP
+      </p>
 
       <div class="english-version">
-        <p><strong>🇺🇸 English version</strong></p>
+        <p class="english-version-title"><strong>🇺🇸 English version</strong></p>
 
         <p>
           Data Analyst | Data Engineering | Aerospace Engineering
         </p>
 
-        <p>
+        <p class="description">
           I build practical, production-oriented data solutions, from ingestion and orchestration
           to transformations, analytics, dashboards, and business insights.
         </p>
 
-        <p>
+        <p class="description">
           Data professional with 5+ years of experience, currently transitioning into Data Engineering to deliver solutions across tech, aviation, and diverse business domains including E-Commerce, Finance, Education and Marketing.
         </p>
       </div>
@@ -110,7 +143,9 @@ title: "Home"
 <section id="projects" class="section">
   <div class="section-header">
     <h2>🚀 Projects</h2>
-    <a class="view-all" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">Ver todos repositórios (All repos) →</a>
+    <a class="view-all" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">
+      Ver todos repositórios (All repos) →
+    </a>
   </div>
 
   <div class="gallery">
