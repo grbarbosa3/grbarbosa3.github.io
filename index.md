@@ -26,20 +26,44 @@ title: "Home"
          alt="Michael Shoemaker"
          class="profile-pic">
 
-    <div class="about-text">
-      <h1>Welcome to my portfolio! I'm Guilherme Barbosa</h1>
-      <p>Senior Data Analyst | Data Engineer | Airspace Engineer Student | .5x Programmer</p>
-      <p>I build practical, production-like data solutions - orchestration, storage, transformations, serving, and analytics - then explain the decisions behind them.</p>
-      <p><strong>Core skills:</strong> Python · SQL · Power BI · dbt · Airflow · Snowflake · BigQuery · Docker · GCP</p>
+<div class="about-text">
+  <h1>Olá, eu sou Guilherme Barbosa</h1>
 
-      <p class="social-links">
-        <a href="https://www.linkedin.com/in/guilhermerbarbosa" target="_blank" aria-label="LinkedIn">
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-      </p>
-    </div>
+  <p class="headline">
+    Analista de Dados | Engenharia de Dados | Estudante de Engenharia Aeronáutica
+  </p>
+
+  <p>
+    Construo soluções práticas de dados, desde ingestão e orquestração até transformação,
+    análise, dashboards e geração de insights para tomada de decisão.
+  </p>
+
+  <p>
+    Profissional de dados com mais de 5 anos de experiência, atualmente em transição para a Engenharia de Dados para entregar soluções escaláveis em tecnologia, aviação e diversos dominhos de       negócios, incluindo E-Commerce, Finanças, Education e Marketing.
+  </p>
+
+  <p><strong>Principais habilidades:</strong> Python · SQL · Power BI · dbt · Airflow · Snowflake · BigQuery · Docker · GCP</p>
+
+  <div class="english-version">
+    <p><strong>English version</strong></p>
+    <p>
+      Data Analyst | Data Engineering | Aerospace Engineering Student
+    </p>
+    <p>
+      I build practical, production-oriented data solutions, from ingestion and orchestration
+      to transformations, analytics, dashboards, and business insights.
+    </p>
+    <p>
+      Data professional with 5+ years of experience, currently transitioning into Data Engineering to deliver scalable solutions across tech, aviation, and diverse business domains including E-        Commerce, Finance, Education and Marketing.
+    </p>
   </div>
-</section>
+
+  <p class="social-links">
+    <a href="https://www.linkedin.com/in/guilhermerbarbosa" target="_blank" aria-label="LinkedIn">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+  </p>
+</div>
 
 <!-- ===================== Projects ===================== -->
 <section id="projects" class="section">
