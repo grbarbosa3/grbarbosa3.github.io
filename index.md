@@ -40,16 +40,16 @@ title: "Home"
       <p class="location">São José dos Campos, Brazil 🇧🇷</p>
 
       <p class="headline">
-        Analista de Dados | Engenharia de Dados | Estudante de Engenharia Aeronáutica
+        Analista de Dados | Engenharia de Dados | Engenharia Aeronáutica
       </p>
 
       <p>
-        Construo soluções práticas de dados, desde ingestão e orquestração até transformação,
-        análise, dashboards e geração de insights para tomada de decisão.
+        Construo soluções de dados, desde ingestão e orquestração até transformação,
+        análise, dashboards e geração de insights para direcionamentos e acompanhamentos.
       </p>
 
       <p>
-        Profissional de dados com mais de 5 anos de experiência, atualmente expandindo meus conhecimentos com Engenharia de Dados para entregar soluções para setores de tecnologia, aviação e           outros diversos contextos de negócios, incluindo E-Commerce, Finanças, Education e Marketing.
+        Possuo mais de 5 anos de experiência, atualmente expandindo meus conhecimentos com Engenharia de Dados para entregar soluções para setores de tecnologia, aviação e outros                        diversos contextos de negócios, incluindo E-Commerce, Finanças, Education e Marketing.
       </p>
 
       <p><strong>Principais habilidades:</strong> Python · SQL · Power BI · dbt · Airflow · Snowflake · BigQuery · Docker · GCP</p>
@@ -58,7 +58,7 @@ title: "Home"
         <p><strong>🇺🇸 English version</strong></p>
 
         <p>
-          Data Analyst | Data Engineering | Aerospace Engineering Student
+          Data Analyst | Data Engineering | Aerospace Engineering
         </p>
 
         <p>
@@ -84,7 +84,7 @@ title: "Home"
 <section id="projects" class="section">
   <div class="section-header">
     <h2>🚀 Projects</h2>
-    <a class="view-all" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">All repos →</a>
+    <a class="view-all" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener"> Ver todos repositórios (All repos) →</a>
   </div>
 
   <div class="gallery">
