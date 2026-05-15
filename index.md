@@ -165,7 +165,7 @@ title: "Home"
       </p>
 
       <p class="description">
-        Possuo mais de 5 anos de experiência, atualmente expandindo meus conhecimentos com Engenharia de Dados para entregar soluções para setores de tecnologia, aviação e outros diversos contextos de negócios, incluindo E-Commerce, Finanças, Education e Marketing.
+        Possuo mais de 5 anos de experiência, atualmente expandindo meus conhecimentos em Engenharia de Dados para entregar soluções mais robustas para os setores de Tecnologia, Aviação e outros diversos contextos de negócios, incluindo E-Commerce, Finanças, Educação e Marketing.
       </p>
 
       <p class="skills">
@@ -250,7 +250,7 @@ title: "Home"
   </div>
 
   <div class="gallery">
-    {% for item in site.data.projects %}
+    {% for item in site.data.articles %}
     <article class="card">
       <a class="thumb" href="{{ item.link }}" target="_blank" rel="noopener" aria-label="Open project">
         <img src="{{ item.image | default: '/assets/images/placeholder_project.jpg' | relative_url }}"
