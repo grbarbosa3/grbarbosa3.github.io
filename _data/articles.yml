@@ -8,7 +8,6 @@
 - title: "Pipeline utilizando Snowflake, dbt e Airflow"
   link: "https://github.com/grbarbosa3/dbt-snowflake-airflow"
   description: "Prática de uso das ferramentas dbt e Airflow dentro do ambiente Snowflake"
-  stack: "Python · dbt · Airflow · Snowflake · Docker"
   image: "/assets/images/dbt-snowflake-airflow.png"
   preview_gif: "/assets/images/dbt-snowflake-airflow.png"
   screenshot: "/assets/images/dbt-snowflake-airflow.png"
