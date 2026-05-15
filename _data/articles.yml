@@ -1,7 +1,7 @@
 - title: "SQL Journey - The Learning Path"
   link: "https://github.com/grbarbosa3/SQL-Journey"
   subtitle: "Registros do Curso SQL da FGV. Módulo Básico de SQL, ótimo para manter como repositório e aprendizado. Clone em seu Github e boa jornada!"
-  image: "/assets/images/SQLJourney_Cover.png"
+  image: "/assets/images/SQLJouney_Cover.png"
   preview_gif: "/assets/images/query_sql_journey.png"
   screenshot: "/assets/images/query_sql_journey.png"
 
