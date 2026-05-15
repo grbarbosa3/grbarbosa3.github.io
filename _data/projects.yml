@@ -14,7 +14,7 @@
   preview_gif: "/assets/images/ga4_analytics_.png"
   screenshot: "/assets/images/ga4_analytics_.png"
   
-  - title: "Pipeline de Performance de Vôos do Brasil"
+- title: "Pipeline de Performance de Vôos do Brasil"
   link: "https://github.com/grbarbosa3/Brazilian-Flights-Performance-Pipeline---FlightOpsBR"
   description: "Projeto de Final de Engenharia de Dados do Zoomcamp 26. Análise de Vôos do Brasil com dados da ANAC."
   stack: "Python · PostgreSQL · dbt · Airflow · BigQuery · Docker · GCP"
