@@ -240,3 +240,45 @@ title: "Home"
     {% endfor %}
   </div>
 </section>
+<!-- ===================== Articles  ===================== -->
+<section id="articles" class="section">
+  <div class="section-header">
+    <h2>📖 Learn</h2>
+    <a class="view-all" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">
+      Ver todos repositórios (All repos) →
+    </a>
+  </div>
+
+  <div class="gallery">
+    {% for item in site.data.projects %}
+    <article class="card">
+      <a class="thumb" href="{{ item.link }}" target="_blank" rel="noopener" aria-label="Open project">
+        <img src="{{ item.image | default: '/assets/images/placeholder_project.jpg' | relative_url }}"
+             alt="{{ item.title | escape }} thumbnail"
+             loading="lazy"
+             {% if item.preview_gif %}data-preview="{{ item.preview_gif | relative_url }}"{% endif %}>
+      </a>
+
+      <div class="card-body">
+        <h3 class="card-title">
+          <a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a>
+        </h3>
+
+        <p class="card-text">{{ item.description }}</p>
+
+        {% if item.stack %}
+        <p class="card-tags">{{ item.stack }}</p>
+        {% endif %}
+
+        <div class="card-actions">
+          {% if item.screenshot %}
+          <a href="#" class="btn ghost" data-lightbox-src="{{ item.screenshot | relative_url }}">Preview</a>
+          {% endif %}
+
+          <a class="btn" href="{{ item.link }}" target="_blank" rel="noopener">Open</a>
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
