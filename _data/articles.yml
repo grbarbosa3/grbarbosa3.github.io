@@ -1,7 +1,7 @@
 - title: "SQL Journey - The Learning Path"
-  link: "https://medium.com/@dataslinger/check-for-bios-update-with-python-on-linux-mint-7a0c9e5ccbbc"
-  subtitle: "Running a custom PC Build running Linux usually doesn't have a great utility to auto check for Bios Updates. Let's make our own. :-)"
-  image: "/assets/images/CheckForBiosUpdate.png"
-  preview_gif: "/assets/images/CheckForBiosUpdate.png"
-  screenshot: "/assets/images/CheckForBiosUpdate.png"
+  link: "https://github.com/grbarbosa3/SQL-Journey"
+  subtitle: "Registros do Curso SQL da FGV. Módulo Básico de SQL, ótimo para manter como repositório e aprendizado. Clone em seu Github e boa jornada!"
+  image: "/assets/images/SQLJourney_Cover.png"
+  preview_gif: "/assets/images/query_sql_journey.png"
+  screenshot: "/assets/images/query_sql_journey.png"
 
