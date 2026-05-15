@@ -19,7 +19,7 @@
   description: "Projeto de Final de Engenharia de Dados do Zoomcamp 26. Análise de Voos do Brasil com dados da ANAC."
   stack: "Python · PostgreSQL · dbt · Airflow · BigQuery · Docker · GCP"
   image: "/assets/images/flightcover.png"
-  preview_gif: "/assets/images/flightbi2.png"
-  screenshot: "/assets/images/flightbq.png"
+  preview_gif: "/assets/images/flightsbi2.png"
+  screenshot: "/assets/images/flightsbq.png"
 
 
