@@ -18,14 +18,8 @@
   link: "https://github.com/grbarbosa3/Brazilian-Flights-Performance-Pipeline---FlightOpsBR"
   description: "Projeto de Final de Engenharia de Dados do Zoomcamp 26. Análise de Vôos do Brasil com dados da ANAC."
   stack: "Python · PostgreSQL · dbt · Airflow · BigQuery · Docker · GCP · Terraform"
-  image: "/assets/images/dbt-snowflake-airflow.png"
-  preview_gif: "/assets/images/dbt-snowflake-airflow.png"
-  screenshot: "/assets/images/dbt-snowflake-airflow.png"
+  image: "/assets/images/flightcover.png"
+  preview_gif: "/assets/images/flightbi2.png"
+  screenshot: "/assets/images/flightbq.png"
 
-- title: "Pipeline utilizando Snowflake, dbt e Airflow"
-  link: "https://github.com/grbarbosa3/dbt-snowflake-airflow"
-  description: "Prática de uso das ferramentas dbt e Airflow dentro do ambiente Snowflake"
-  stack: "Python · dbt · Airflow · Snowflake · Docker"
-  image: "/assets/images/dbt-snowflake-airflow.png"
-  preview_gif: "/assets/images/dbt-snowflake-airflow.png"
-  screenshot: "/assets/images/dbt-snowflake-airflow.png"
+
